@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+        tools:context=".tip_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/hjik"
+            android:padding="20dp"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/introtextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tips To Adopt Child"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/introView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="    How do you make yourself eligible for adopting a child? If you are really serios in your decision, it is time you make some adjustments to your lifestyle  and get ready the documents necessary for the adoption process. Below are 7 tips to help you improve your eligibility
+as a potencial adoptive parent:"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Age Matters :"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ask yourself if you are too young to be adopting a child? Most adoption agencies have stipulated rules that the adoptive parents should be between the ages of 25 and 40 because if the are too young, they might not be ready for the resposibilities involve in raising a child.thus you might want to consider waiting a few more years if you fall below  25 years old. on the other hand,if adaptive parents are over the 40 years old, they might face stricter rules and might not be so successful in their attempt at adoption.
+"            android:textSize="20sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emotionally Ready:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="It is not easy to accept another child who is not releted bt blood,into your family. Are you truly ready for such a challenge? There have been instances where the adaptive parents could not handle the stress involved in raising a child,especially when he is not their flesh and blood,and gave up the child halfway. This is very unfair to the child and will be a very traumatic experience for him if he had to be returned. "
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Financial Capability:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="your heart might be ready but are you pockets ready for adopting a child? No doubts you do not have to be filthy rich but adoption is indeed an expensive process,especially if you have decided on an international adoption Thus you really have to provide evidence to the adoption agency and the courts that you are financialy stable enough to provide your adopted child with a comfertable life."
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

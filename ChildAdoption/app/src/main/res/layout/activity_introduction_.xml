@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".introduction_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/motherteresa"
+            android:padding="30dp"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/ruletextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Introduction"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/ruleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text=" Adoption is the social, emotional, and legal process in which children who will not be raised by their birth parents become full and permanent legal members of another family while maintaining genetic and psychological connections to their birth family. Adoption has many facets and touches people in different ways—depending on their role and perspective. In this section, find information on the history of adoption in the United States, definitions and the use of language in adoption, core issues in adoption, and information about social media in adoption, as well as links to related resources and information."
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/ruleView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Child Adoption in India"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/ruleView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="India is a large, beautiful country located in South Asia. It is the seventh largest country in the world and the second most populated. It is also home to the world largest democracy. It is particularly impressive as India is made up of 29 different states and seven union territories. Each state functions like its own country with its cultural traditions, religion, rules, regulations, and language—there are 22 official languages recognized by the Indian constitution, but dozens more exist. India is a multilingual, multiethnic, multireligious society, so child adoption in India can be quite complex."
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/ruleView54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The history of child adoption in India began in 1890. Under the Guardians and Wards Act, courts were allowed to appoint a guardian for an orphaned child. This was particularly revolutionary as the 1890 Act was a non-religious universal law pertaining to the guardianship of a child. In 1956, religion played a part in adoption under the Hindu Adoption and Maintenance Act. Under this act, all Hindu children eligible for adoption must be adopted by practicing Hindu parents. In 2000, the Juvenile Justice Act overturned the Hindu Adoption Act and, like the 1890 Act, allowed for the adoption of any eligible child to any prospective adoptive parent, regardless of religious beliefs. The Juvenile Justice Act was amended in 2015 to be even more secular and to formally allow for the adoption of Indian children to international families. Until 2015, there was no formal law regarding international adoption. The 2015 Act also established the Child Adoption Resource Authority (CARA) as the country’s central adoption authority. Through CARA, all institutions providing care for children were formally registered and a more streamlined database of available children was established. From April 2017 to March 2018, the most recent time frame from which data is available, 3,276 in-country adoptions and 651 intercountry adoptions in India occurred. In 2017, 221 intercountry adoptions occurred from India to the United States."
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/ruleView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Children available for adoption in India are between infant age to 18, with the average age of intercountry adoption between 18 months and 4 years old at placement. Children reside in state-run orphanages, which are monitored by CARA. Both healthy children and children with special needs are available for adoption, depending on the prospective adoptive parents’ status. Sibling groups are possible and are classified under special needs adoption."
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

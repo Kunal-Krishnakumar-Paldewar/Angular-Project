@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/introbtn"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/button_rounded"
+            android:onClick="intro_btn"
+            android:text="Introduction"
+
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/rulebtn"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_rounded"
+            android:onClick="Rule_btn"
+            android:text="Rules for Adopting Child"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/tipbtn"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_rounded"
+            android:onClick="tip_btn"
+            android:text="Tips to Adopt Child"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/procbtn"
+            android:layout_width="333dp"
+            android:layout_marginLeft="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_rounded"
+            android:onClick="process_btn"
+            android:text="How to Adopt Child"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/orgbtn"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/button_rounded"
+            android:text="Available Organisations"
+            android:textStyle="bold|italic"
+            android:onClick="organ_btn"
+            />
+
+
+
+
+        <Button
+            android:id="@+id/feedbtn"
+            android:layout_width="333dp"
+            android:layout_marginLeft="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_rounded"
+            android:text="feedback"
+            android:onClick="fdback"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+</ScrollView>

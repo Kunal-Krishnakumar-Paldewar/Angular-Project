@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "327860302403",
+    "firebase_url": "https://childadoption-49623.firebaseio.com",
+    "project_id": "childadoption-49623",
+    "storage_bucket": "childadoption-49623.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327860302403:android:9b29a7a57fd1a453eb5af6",
+        "android_client_info": {
+          "package_name": "com.example.childadoption"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327860302403-0vuujmraf406np74peln8r8ep64hnnv7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.childadoption",
+            "certificate_hash": "f64c3a5976a201efc3b52f349f04f704b67cd417"
+          }
+        },
+        {
+          "client_id": "327860302403-l2nd229g82peuv8hcheql3vbmr1fdpgu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmCBJR0mrbfSRzLqv357DZe45g1xSwN_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327860302403-l2nd229g82peuv8hcheql3vbmr1fdpgu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

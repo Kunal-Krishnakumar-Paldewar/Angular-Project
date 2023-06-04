@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.childadoption">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".adopt_org82"></activity>
+        <activity android:name=".adopt_org81" />
+        <activity android:name=".adopt_org72" />
+        <activity android:name=".adopt_org71" />
+        <activity android:name=".adopt_org61" />
+        <activity android:name=".adopt_org54" />
+        <activity android:name=".adopt_org53" />
+        <activity android:name=".adopt_org52" />
+        <activity android:name=".adopt_org51" />
+        <activity android:name=".adopt_org34" />
+        <activity android:name=".adopt_org33" />
+        <activity android:name=".adopt_org32" />
+        <activity android:name=".adopt_org31" />
+        <activity android:name=".adopt_org22" />
+        <activity android:name=".adopt_org21" />
+        <activity android:name=".adopt_org16" />
+        <activity android:name=".adopt_org15" />
+        <activity android:name=".adopt_org14" />
+        <activity android:name=".adopt_org13" />
+        <activity android:name=".adopt_org12" />
+        <activity android:name=".adopt_org11" />
+        <activity android:name=".adopt_org10" />
+        <activity android:name=".adopt_org9" />
+        <activity android:name=".adopt_org8" />
+        <activity android:name=".adopt_org7" />
+        <activity android:name=".adopt_org6" />
+        <activity android:name=".adopt_org5" />
+        <activity android:name=".adopt_org4" />
+        <activity android:name=".adopt_org3" />
+        <activity android:name=".adopt_org2" />
+        <activity android:name=".adoptation_form" />
+        <activity android:name=".adopt_org1" />
+        <activity android:name=".feedback1" />
+        <activity android:name=".Donate_Activity" />
+        <activity android:name=".org8_Activity" />
+        <activity android:name=".org7_Activity" />
+        <activity android:name=".org6_Activity" />
+        <activity android:name=".org5_Activity" />
+        <activity android:name=".org4_Activity" />
+        <activity android:name=".org3_Activity" />
+        <activity android:name=".org2_Activity" />
+        <activity android:name=".org1_Activity" />
+        <activity android:name=".Organization_Activity" />
+        <activity
+            android:name=".introduction_Activity"
+            android:parentActivityName=".HomeActivity" />
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".process_Activity" />
+        <activity android:name=".tip_Activity" />
+        <activity android:name=".Rule_Activity" />
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SignupForm" />
+        <activity android:name=".LoginForm" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

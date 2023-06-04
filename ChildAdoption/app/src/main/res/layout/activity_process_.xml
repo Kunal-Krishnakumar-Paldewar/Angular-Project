@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    
+    tools:context=".process_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/hands"
+            android:padding="40dp"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/introtextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How To Adopt a Child"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/introView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="The adoption process in India is governed by multiple laws and adherence to the same is overseen by the Central Adoption Resource Authority.FAMILY LAW The procedure for adoption of a child in India can be understood in the following steps:"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 1 – Registration"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prospective adoptive parents need to get registered with an authorized agency. Recognised Indian Placement Agencies (RIPA) and Special Adoption Agency (SPA) are the agencies which are allowed to make such registrations in India. The prospective adoptive parents can visit the Adoption Coordination Agency in their area where the social worker will explain the process and take you through the formalities, paperwork and general preparation required for registration."
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 2 – Home Study and Counseling"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A social worker for the registration agency will make a visit to the home of the prospective adoptive parent in order to do a home study. The agency might also need the parents to attend counselling sessions in order to understand the motivation, preparation, strengths and weaknesses of the prospective parents. As per CARA regulation, the home study needs to be completed within 3 months from the date of registration. The conclusion from the home study and counselling sessions is then reported to the honourable court."
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 3 – Referral of the Child"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The agency shall intimate the interested couple when-ever there is a child ready for adoption. The agency will share medical reports, physical examination reports and other relevant information with the couple and also allow them to spend time with the child once they are comfortable with the details shared."
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 4 – Acceptance of the Child"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Once the parents are comfortable with a child, they will have to sign a few documents pertaining to acceptance of the child."
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 5 – Filing of Petition"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All necessary documents are submitted to a lawyer who prepares a petition to be presented to the court. Once the petition is ready, the adoptive parents will have to visit the court and sign the petition in front of the court officer."
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 6 – Pre-Adoption Foster Care"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Once the petition is signed in the court, the adoptive parents can take the child to a pre-adoption foster care centre and understand the habits of the child from the nursing staff before taking the child home."
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 7 – Court Hearing"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The parents have to attend a court hearing along with the child. The hearing is held in a closed room with a judge. The judge may ask a few questions and will mention the amount which needs to be invested in the name of the child."
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 8 – Court Order"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Once the receipt of investment made is shown, the judge shall pass the adoption orders."
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 9: Follow Up"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/introView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post completion of the adoption, the agency needs to submit follow up reports to the court on the child’s well-being. This may continue for 1-2 years."
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
